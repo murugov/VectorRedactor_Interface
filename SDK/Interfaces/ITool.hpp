@@ -4,8 +4,6 @@
 #include "Interfaces/IID.hpp"
 #include "Utils/Event.hpp"
 
-namespace Vectoria {
-
 constexpr static const IID IID_TOOL = 2;
 
 using ToolID = uint64_t;
@@ -19,7 +17,5 @@ public:
     virtual ToolID ID()                             = 0;
     virtual bool   processEvent(const Event& event) = 0;
 };
-
-} // namespace Vectoria
 
 #endif
