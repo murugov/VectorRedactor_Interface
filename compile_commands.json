@@ -1,0 +1,73 @@
+[
+  {
+    "directory": "/home/kabuto/Work/DED/GDInterface",
+    "arguments": [
+      "clang++",
+      "-std=c++23",
+      "-ISDK",
+      "-c",
+      "SDK/Core/ApplicationCore.cpp"
+    ],
+    "file": "/home/kabuto/Work/DED/GDInterface/SDK/Core/ApplicationCore.cpp"
+  },
+  {
+    "directory": "/home/kabuto/Work/DED/GDInterface",
+    "arguments": [
+      "clang++",
+      "-std=c++23",
+      "-ISDK",
+      "-Iexamples/plugins_usage/include",
+      "-c",
+      "examples/plugins_usage/src/GUIEngine.cpp"
+    ],
+    "file": "/home/kabuto/Work/DED/GDInterface/examples/plugins_usage/src/GUIEngine.cpp"
+  },
+  {
+    "directory": "/home/kabuto/Work/DED/GDInterface",
+    "arguments": [
+      "clang++",
+      "-std=c++23",
+      "-ISDK",
+      "-Iexamples/plugins_usage/include",
+      "-c",
+      "examples/plugins_usage/src/MainPlugin.cpp"
+    ],
+    "file": "/home/kabuto/Work/DED/GDInterface/examples/plugins_usage/src/MainPlugin.cpp"
+  },
+  {
+    "directory": "/home/kabuto/Work/DED/GDInterface",
+    "arguments": [
+      "clang++",
+      "-std=c++23",
+      "-ISDK",
+      "-Iexamples/plugins_usage/include",
+      "-c",
+      "examples/plugins_usage/src/Main.cpp"
+    ],
+    "file": "/home/kabuto/Work/DED/GDInterface/examples/plugins_usage/src/Main.cpp"
+  },
+  {
+    "directory": "/home/kabuto/Work/DED/GDInterface",
+    "arguments": [
+      "clang++",
+      "-std=c++23",
+      "-ISDK",
+      "-IMyPlugins/include",
+      "-c",
+      "MyPlugins/src/SDL3Engine.cpp"
+    ],
+    "file": "/home/kabuto/Work/DED/GDInterface/MyPlugins/src/SDL3Engine.cpp"
+  },
+  {
+    "directory": "/home/kabuto/Work/DED/GDInterface",
+    "arguments": [
+      "clang++",
+      "-std=c++23",
+      "-ISDK",
+      "-IMyPlugins/include",
+      "-c",
+      "MyPlugins/src/Main.cpp"
+    ],
+    "file": "/home/kabuto/Work/DED/GDInterface/MyPlugins/src/Main.cpp"
+  }
+]

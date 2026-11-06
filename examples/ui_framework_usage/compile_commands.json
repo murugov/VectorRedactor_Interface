@@ -1,0 +1,38 @@
+[
+  {
+    "file": "src/MainPlugin.cpp",
+    "arguments": [
+      "/usr/bin/clang++",
+      "-std=c++23",
+      "-undefined",
+      "-Iinclude",
+      "-I/Users/murugov2007/Vectoria/SDK",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-o",
+      "MainPlugin.dylib",
+      "src/MainPlugin.cpp"
+    ],
+    "directory": "/Users/murugov2007/Vectoria/examples/ui_framework_usage",
+    "output": "MainPlugin.dylib"
+  },
+  {
+    "file": "/Users/murugov2007/Vectoria/SDK/cheets/UIWi/src/UIWi.cpp",
+    "arguments": [
+      "/usr/bin/clang++",
+      "-std=c++23",
+      "-undefined",
+      "-Iinclude",
+      "-I/Users/murugov2007/Vectoria/SDK",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-o",
+      "UIWi.dylib",
+      "/Users/murugov2007/Vectoria/SDK/cheets/UIWi/src/UIWi.cpp"
+    ],
+    "directory": "/Users/murugov2007/Vectoria/examples/ui_framework_usage",
+    "output": "UIWi.dylib"
+  }
+]

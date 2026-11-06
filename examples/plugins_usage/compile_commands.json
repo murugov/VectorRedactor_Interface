@@ -1,0 +1,73 @@
+[
+  {
+    "file": "src/MainPlugin.cpp",
+    "arguments": [
+      "/usr/bin/clang++",
+      "-std=c++23",
+      "-undefined",
+      "-Iinclude",
+      "-I/Users/murugov2007/Vectoria/SDK",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-o",
+      "MainPlugin.dylib",
+      "src/MainPlugin.cpp"
+    ],
+    "directory": "/Users/murugov2007/Vectoria/examples/plugins_usage",
+    "output": "MainPlugin.dylib"
+  },
+  {
+    "file": "src/Renderer.cpp",
+    "arguments": [
+      "/usr/bin/clang++",
+      "-std=c++23",
+      "-undefined",
+      "-Iinclude",
+      "-I/Users/murugov2007/Vectoria/SDK",
+      "-I/opt/homebrew/include",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-o",
+      "Renderer.dylib",
+      "src/Renderer.cpp"
+    ],
+    "directory": "/Users/murugov2007/Vectoria/examples/plugins_usage",
+    "output": "Renderer.dylib"
+  },
+  {
+    "file": "src/Main.cpp",
+    "arguments": [
+      "/usr/bin/clang++",
+      "-std=c++23",
+      "-Iinclude",
+      "-I/Users/murugov2007/Vectoria/SDK",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-o",
+      "main",
+      "src/Main.cpp"
+    ],
+    "directory": "/Users/murugov2007/Vectoria/examples/plugins_usage",
+    "output": "main"
+  },
+  {
+    "file": "/Users/murugov2007/Vectoria/SDK/Core/ApplicationCore.cpp",
+    "arguments": [
+      "/usr/bin/clang++",
+      "-std=c++23",
+      "-Iinclude",
+      "-I/Users/murugov2007/Vectoria/SDK",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-o",
+      "main",
+      "/Users/murugov2007/Vectoria/SDK/Core/ApplicationCore.cpp"
+    ],
+    "directory": "/Users/murugov2007/Vectoria/examples/plugins_usage",
+    "output": "main"
+  }
+]
